@@ -2,4 +2,5 @@ deployment:
   production:
     branch: master
     commands: 
+      - git remote add dokku dokku@sth.sh:test-server
       - git push dokku master
