@@ -1,3 +1,3 @@
-const reverse = (s) => s && s.split(' ').reverse().join('');
+const reverse = (s) => s && s.split('').reverse().join('');
 
 export default reverse;
