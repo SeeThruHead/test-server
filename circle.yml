@@ -1,4 +1,5 @@
 deployment:
   production:
     branch: master
-    commands: git push dokku master
+    commands: 
+      - git push dokku master
