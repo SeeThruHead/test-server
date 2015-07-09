@@ -2,4 +2,4 @@ FROM node
 COPY . /src
 RUN cd /src; npm install
 EXPOSE 8080
-CMD ["npm", "start"]
+CMD ["./node_modules/.bin/babel-node", "server.js"]
