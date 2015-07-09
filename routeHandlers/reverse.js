@@ -6,7 +6,7 @@ const reverseHandler = (req, res) => {
   if (!req.query.string) {
     res.status(500).send(ERROR);
   } else {
-    res.send(reverse(req.query.string));
+    res.send(revee(req.query.string));
   }
 };
 export default reverseHandler; 
