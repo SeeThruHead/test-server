@@ -7,7 +7,7 @@
     "test": "mocha --ui tdd --compilers js:babel/register",
     "babel-node": "babel-node --stage 0",
     "watch": "nodemon --exec npm run babel-node -- server.js 8080",
-    "start": "./node_modules/.bin/babel-node ./server.js"
+    "start": "babel-node ./server.js"
   },
   "keywords": [
     "node"
