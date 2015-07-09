@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha --ui tdd --compilers js:babel/register",
     "babel-node": "babel-node --stage 0",
-    "serve": "nodemon --exec npm run babel-node -- server.js 8080"
+    "start": "nodemon --exec npm run babel-node -- server.js 8080"
   },
   "keywords": [
     "node"
