@@ -1,5 +1,6 @@
 FROM node
-COPY . /src
-RUN cd /src; npm install
+WORKDIR /src
+COPY . .
+RUN npm install
 EXPOSE 8080
 CMD ls
